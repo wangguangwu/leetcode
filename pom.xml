@@ -8,18 +8,9 @@
   <packaging>jar</packaging>
 
   <name>leetcode</name>
-  <url>http://maven.apache.org</url>
+  <description>A repository about leetcode.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 </project>
