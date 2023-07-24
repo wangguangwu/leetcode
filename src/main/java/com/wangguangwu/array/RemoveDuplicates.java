@@ -25,7 +25,7 @@ public class RemoveDuplicates {
             return 0;
         }
         int slow = 0;
-        int fast = 1;
+        int fast = 0;
 
         int length = nums.length;
         while (fast < length) {
