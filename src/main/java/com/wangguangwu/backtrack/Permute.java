@@ -6,10 +6,10 @@ import java.util.List;
 /**
  * @author wangguangwu
  */
-public class Solution {
+public class Permute {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Permute solution = new Permute();
         List<List<Integer>> result = solution.permute(new int[]{1, 2, 3});
         for (List<Integer> integers : result) {
             System.out.println(integers);
